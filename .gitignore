@@ -1,2 +1,15 @@
+# Ignore everything by default
 *
+
+# Keep this file
 !.gitignore
+
+# Un-ignore top-level module folders themselves...
+!module_*/
+
+# ...but re-ignore everything inside them
+module_*/*
+
+# Un-ignore specific files as I add them
+!module_4_performance_engineering_hw3/benchmark_comparison.md
+!module_4_performance_engineering_hw3/spec_dec_quantization_homework.ipynb
